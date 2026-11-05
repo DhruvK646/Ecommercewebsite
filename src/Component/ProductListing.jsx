@@ -1,6 +1,5 @@
 import { useMemo, useState } from "react";
 import products from "./Data/Data.json";
-import "./ProductListing.css";
 
 const pageSize = 12;
 const currencyFormatters = {};

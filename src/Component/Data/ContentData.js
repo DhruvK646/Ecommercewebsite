@@ -35,17 +35,17 @@ const CategoryData = [
 ]
 
 const FooterData = {
-  brandName: "UrbanThreads",
-  brandIcon: "🛍️",
-  description:
-    "Everyday finds, thoughtfully picked. Discover something you'll love for every part of life.",
-  supportEmail: "support@urbanthreads.example",
-  copyright: "All rights reserved.",
-  socialLinks: [
-    { name: "Instagram", href: "https://www.instagram.com" },
-    { name: "YouTube", href: "https://www.youtube.com" },
-    { name: "Facebook", href: "https://www.facebook.com" },
-  ],
+    brandName: "UrbanThreads",
+    brandIcon: "🛍️",
+    description:
+        "Everyday finds, thoughtfully picked. Discover something you'll love for every part of life.",
+    supportEmail: "support@urbanthreads.example",
+    copyright: "All rights reserved.",
+    socialLinks: [
+        { name: "Instagram", href: "https://www.instagram.com" },
+        { name: "YouTube", href: "https://www.youtube.com" },
+        { name: "Facebook", href: "https://www.facebook.com" },
+    ],
 };
 
 export { NavbarData, CategoryData, FooterData };
