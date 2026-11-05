@@ -2,7 +2,7 @@ import React from "react";
 import { useProduct } from "../Context/ProductContext";
 
 export default function Navbar() {
-    const { NavbarData, searchFiter, search, setSearch } = useProduct();
+    const { NavbarData, searchFiter, search, setSearch, debounching } = useProduct();
     const currencyFormatters = {};
 
 
@@ -62,7 +62,7 @@ export default function Navbar() {
 
             <div>{searchFiter.length > 0 ? (
                 <div className="product-grid">
-                    {search && searchFiter.map((product) => (
+                    {debounching && searchFiter.map((product) => (
                         <article className="product-card" key={product.id}>
                             <div className="product-card__image-link">
                                 <img
